@@ -1,4 +1,4 @@
-#Exercise 9.2
+#Exercise 9.2 Completed!
 
 fname = input("Enter file name: ")
 if len(fname) < 1 :
@@ -12,4 +12,3 @@ if len(fname) < 1 :
         newlist = new[2]
         daysofweek[newlist] = daysofweek.get(newlist,0)+1
 print(daysofweek)
-print("")
